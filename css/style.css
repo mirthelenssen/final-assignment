@@ -1,0 +1,774 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../css/font/montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(../css/fonts/PlayfairDisplay-Bold.otf);
+}
+main {
+    max-width: 984px;
+}
+nav {
+    background-color: white;
+    height: 90px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    width: 500px;
+    height: 40px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 30px;
+    line-height: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#logo {
+    width: 2, 33mm;
+    height: 2, 33mm;
+    margin-left: 100px;
+    margin-top: 20px;
+    float: left;
+}
+
+#headerfoto {
+    width: 100%;
+    max-height: 600px;
+    margin-top: 75px;
+    background-image: linear-gradient(#1D00FF, #0076FF);
+}
+
+#fotoheader {
+    max-height: 600px;
+    width: 100%;
+    opacity: .3;
+}
+
+#playlist {
+    height: 1078px;
+    width: 1208px;
+    position: absolute;
+    background-color: white;
+    margin-top: -160px;
+    margin-left: 110px;
+}
+
+.clear {
+    clear: both;
+}
+
+#headertekst {
+    font-family: Playfair Display;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    text-align: left;
+    margin-left: 330px;
+    margin-right: 350px;
+    margin-top: 45px;
+}
+
+#tekstje {
+    color: white;
+    font-family: Montserrat Medium;
+    position: absolute;
+    text-align: left;
+    margin-left: 330px;
+    margin-right: 500px;
+    margin-top: 210px;
+    font-size: 1em;
+    z-index: 1;
+    line-height: 25px;
+}
+
+#titelplaylist {
+    font-family: Montserrat;
+    color: #1D00FF;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 1em;
+
+}
+
+#accordion {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+#accordion h3 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.afspeelknoppen{
+    position: absolute;
+    transform: translate(-50%);
+    top: 40%;
+    left: 50%;
+    height: 90px;
+    width: 300px;
+}
+.playknop{
+    width: 80px;
+    height: 80px;
+    margin-right: 50px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 40px;
+}
+.playknop img {
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.terugspoelknop{
+    width: 40px;
+    height: 40px;
+    margin-right: 60px;
+    margin-bottom: 25px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 40px;
+}
+.terugspoelknop img {
+    width: 18px;
+    height: 18px;
+    margin-top: 11px;
+    margin-left: 13px;
+}
+.popup{
+    width: 38px;
+    height: 38px;
+    margin-bottom: 25px;
+    background-color: #BBFFB2;
+    display: inline-block;
+    border-radius: 40px;
+}
+.popup img {
+    width: 20px;
+    height: 20px;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+
+.intro {
+    float: right;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #CC0085;
+    background-color: #FFAFE3;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.workshop {
+    float: right;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #1D00FF;
+    font-size: 0.5em;
+    background-color: #D1E7FF;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.downloads {
+    float: right;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+    font-size: 0.1em;
+    background-color: black;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+.downloadvink {
+    width: 12px;
+    height: 12px;
+}
+
+#tekstblauw {
+    font-family:  Playfair Display;
+    font-size: 3em;
+    font-weight: bold;
+    color: #1D00FF;
+    position: absolute;
+    z-index: 1;
+    text-align: left;
+    margin-top: 45px;
+    margin-right: 600px;
+    margin-left: 50px;
+}
+
+#contactpersonen {
+    width: 1100px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.contact {
+    width: 150px;
+    height: 150px;
+}
+
+.profiel {
+    width: 550px;
+    height: 200px;
+    float: left;
+}
+
+.contact1 {
+    height: 150px;
+    float: left;
+}
+
+.tekst {
+    float: right;
+    margin-top: 40px;
+    margin-right: 80px;
+    margin-left: 10px;
+}
+
+.klaartje {
+    font-family: Montserrat;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.hoofd {
+    font-family: Montserrat Medium;
+    color: #EBEBEB;
+    font-size: 1em;
+}
+
+.mail {
+    background-color: black;
+    color: white;
+    font-family: Montserrat;
+    height: 20px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#rozediv {
+    width: 100%;
+    max-height: 455px;
+    margin-top: 1400px;
+    background-image: linear-gradient(#FFAFE3, #CC0085);
+
+}
+
+#rozefoto {
+    width: 100%;
+    max-height: 455px;
+    opacity: .3;
+}
+
+#footertekst {
+    font-family:  Playfair Display;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    margin-left: 330px;
+    margin-right: 350px;
+    margin-top: 45px;
+}
+
+#tekstjefooter {
+    color: white;
+    font-family: Montserrat Medium;
+    position: absolute;
+    text-align: center;
+    margin-left: 470px;
+    margin-right: 440px;
+    margin-top: 210px;
+    font-size: 1em;
+    z-index: 2;
+}
+
+#footerbutton {
+    background-image: linear-gradient(#FFAFE3, #CC0085);
+    color: #FFAFE3;
+    font-family: Montserrat;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    margin-left: 620px;
+    margin-right: 500px;
+    margin-top: 300px;
+    font-size: 1em;
+    z-index: 2;
+    height: 35px;
+    width: 155px;
+    border-radius: 5px;
+    border: none;
+}
+
+#footerbalk {
+    background-color: black;
+    height: 100px;
+}
+
+.switch {
+    position: relative;
+    width: 60px;
+    height: 34px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #EBEBEB;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #EBEBEB;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#sun {
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#moon {
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#theme {
+    color: white;
+    font-family: Montserrat;
+    font-size: 0.8em;
+    float: right;
+    margin-right: 25px;
+    margin-top: 40px;
+}
+.themeswitch header {
+    background-color: black;
+}
+.themeswitch {
+    background-color: black;
+}
+.themeswitch main {
+    background-color: black;
+}
+.themeswitch body {
+    background-color: black;
+}
+.themeswitch nav {
+    background-color: black;
+}
+.themeswitch nav ul li a {
+    color: white;
+}
+.themeswitch #playlist {
+    background-color: black;
+}
+.themeswitch #accordion h3 {
+    color: white;
+}
+.themeswitch #titelplaylist {
+    color: white;
+}
+.themeswitch #tekstblauw {
+    color: white;
+}
+.themeswitch .hoofd {
+    color: white;
+}
+.themeswitch .klaartje {
+    color: white;
+}
+.themeswitch .mail {
+    background-color: white;
+    color: black;
+}
+
+/* responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 900px) {
+    #logo {
+            float: left;
+            margin: 0 auto;
+    }
+    .nav {
+        height: 300px;
+        margin: 0 auto;
+    }
+    }
+    @media only screen and (max-width: 900px) {
+        nav ul li a {
+            font-size: 0.5em;
+            margin: 0 auto;
+        }
+        nav ul li {
+            float: right;
+            margin-left: -30px;
+        }
+        nav {
+            height: 120px;
+        }
+        #logo {
+           margin-left: 250px;
+            width: 30px;
+            height: 30px;
+        }
+        #accordion {
+            width: 85vw;
+            margin: 0 auto;
+        }
+        .downloads {
+            height: 20px;
+            width: 60px;
+        }
+        .profiel {
+            max-width: 20vw;
+            display: block;
+            margin: 0 auto;
+           
+        }
+        #tekstblauw {
+            font-size: 1.5em;
+            text-align: center;
+        }
+        #headertekst {
+            font-size: 1em;
+            width: 300px;
+            margin-top: 80px;
+            margin-left: 130px;
+            text-align: center;
+        }
+        #playlist {
+            margin-top: 20px;
+            font-size: 0.8em;
+           margin-left: 55px;
+        }
+        #accordion {
+            margin-top: 30px;
+            margin-left: -20px;
+ 
+    }
+        #tekstje {
+            width: 250px;
+            font-size: 0.7em;
+            margin-left: 150px; 
+        text-align: center;   
+        margin-top: 140px;
+    }
+    video {
+        width: 400px;
+    }
+
+    }
+
+    @media only screen and (max-width: 667px) {
+        nav ul li a {
+            display: none;
+        }
+        nav {
+            height: 60px;
+        }
+        #logo{
+            height: 25px;
+            width: 25px;
+            margin: 0 auto;
+            margin-left: 185px;
+            margin-top: 20px;
+        }
+        #headertekst {
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+        #tekstje {
+            margin-top: 70px;
+            font-size: 0.6em;
+            margin-left: 70px;
+        }
+        #accordion h3 {
+            font-size: 0.6em;
+        }
+        video {
+            width: 250px;
+        }
+        #playlist{
+            height: 850px;
+        }
+        #titelplaylist {
+            font-size: 0.6em;
+            margin-top: 10px;
+            margin-left: -10px;
+        }
+        #tekstblauw {
+            font-size: 1em;
+            margin-left: 10px;
+        }
+        #contactpersonen {
+            max-width: 50vw;
+            float: left;
+            margin-left: 60px;
+            margin-top: 70px;
+        }
+        .contact {
+            width: 80px;
+            height: 80px;
+            margin-bottom: -20px;
+        }
+        .klaartje {
+            font-size: 0.6em;
+        }
+        .hoofd {
+            font-size: 0.6em;
+        }
+        .mail {
+            font-size: 0.5em;
+            width: 35px;
+            height: 15px; 
+        }
+        #rozediv {
+            margin-top: 900px;
+        }
+        #footertekst {
+            font-size: 1em;
+            margin: 0 auto;
+            margin-left: 56px;
+            margin-top: 40px;
+        }
+        #tekstjefooter {
+            margin: 0 auto;
+            font-size: 0.6em;
+            margin-left: 55px;
+            margin-top: 90px;
+        }
+        #footerbutton {
+            margin: 0 auto;
+            height: 15px;
+            width: 70px;
+            font-size: 0.2em;
+            margin-left: 150px;
+            margin-top: 150px;
+        }
+        #footerbalk {
+            height: 60px;
+        }
+        .slider.round {
+            height: 20px;
+            width: 30px;
+            margin-top: -10px;
+        }
+        .slider:before{
+            height: 10px;
+            width: 10px;
+        }
+        #sun {
+            height: 10px;
+            width: 10px;
+        }
+        #moon {
+            height: 10px;
+            width: 10px;
+        }
+        #theme {
+            font-size: 0.3em;
+            margin-top: 27px;
+            margin-right: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        nav ul li a {
+            display: none;
+        }
+        nav {
+            height: 60px;
+        }
+        #logo{
+            height: 40px;
+            width: 40px;
+            margin: 0 auto;
+            margin-left: 290px;
+            margin-top: 20px;
+        }
+        #headertekst {
+            font-size: 1.2em;
+            margin-left: 150px;
+            margin-top: 60px;
+        }
+        #tekstje {
+            margin-top: 170px;
+            font-size: 1em;
+            margin-left: 170px;
+        }
+        #accordion h3 {
+            font-size: 1em;
+        }
+        video {
+            width: 460px;
+        }
+        #accordion {
+            width: 70vw;
+        }
+        #playlist{
+            height: 850px;
+        }
+        #titelplaylist {
+            font-size: 1em;
+            margin-top: 10px;
+            margin-left: -10px;
+        }
+        #tekstblauw {
+            font-size: 1.3em;
+            margin-left: -10px;
+        }
+        #contactpersonen {
+            max-width: 90vw;
+            margin: 0 auto;
+            margin-top: 90px;
+            display: inline-block;
+        }
+        .contact {
+            width: 80px;
+            height: 80px;
+        }
+        .klaartje {
+            font-size: 1em;
+        }
+        .hoofd {
+            font-size: 1em;
+        }
+        .mail {
+            font-size: 1em;
+            width: 55px;
+            height: 25px; 
+        }
+        #rozediv {
+            margin-top: 1000px;
+        }
+        #rozefoto {
+            width: 700px;
+        }
+        #footertekst {
+            font-size: 1.5em;
+            margin: 0 auto;
+            margin-left: 110px;
+            margin-top: 90px;
+        }
+        #tekstjefooter {
+            margin: 0 auto;
+            font-size: 1em;
+            margin-left: 85px;
+            margin-top: 170px;
+        }
+        #footerbutton {
+            margin: 0 auto;
+            height: 35px;
+            width: 80px;
+            font-size: 0.5em;
+            margin-left: 280px;
+            margin-top: 250px;
+        }
+        #footerbalk {
+            height: 60px;
+            width: 700px;
+        }
+        .slider.round {
+            height: 20px;
+            width: 30px;
+            margin-top: -10px;
+            margin-left: -70px;
+        }
+        .slider:before{
+            height: 10px;
+            width: 10px;
+        }
+        #sun {
+            height: 10px;
+            width: 10px;
+        }
+        #moon {
+            height: 10px;
+            width: 10px;
+        }
+        #theme {
+            font-size: 0.3em;
+            margin-top: 27px;
+            margin-right: 90px;
+        }
+    }
